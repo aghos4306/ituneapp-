@@ -14,6 +14,10 @@ class SongsViewModel(
 ) : ViewModel() {
     val songsLiveData = MutableLiveData<MusicResponse>()
 
+    init {
+
+    }
+
     fun getMusicResponse(search: String) {
         CoroutineScope(Dispatchers.Main).launch {
             val musicResponse = repository.getSongs(search)
