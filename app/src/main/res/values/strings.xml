@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MVVM itunes</string>
+    <string name="artist_image">Artist Image</string>
+    <string name="song_name">Song Name</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="price">Price</string>
 </resources>
